@@ -1,4 +1,0 @@
-data/
-dbgen/*.o
-dbgen/dbgen
-loader/loader

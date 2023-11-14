@@ -1,0 +1,4 @@
+[submodule "crystal/crystal-opt_src"]
+	path = crystal/crystal-opt_src
+	url = git@github.com:jiashenC/crystal-opt.git
+	branch = master
