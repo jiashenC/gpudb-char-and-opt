@@ -1,0 +1,2 @@
+join_1,./data/storage/join_dim_26214400.parquet
+join_2,./data/storage/join_fact_268435456.parquet

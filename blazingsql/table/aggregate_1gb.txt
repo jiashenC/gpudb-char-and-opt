@@ -1,0 +1,1 @@
+aggregate_1,./data/storage/aggregate_268435456_10000.parquet

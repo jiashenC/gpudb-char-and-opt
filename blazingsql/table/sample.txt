@@ -1,0 +1,2 @@
+sample_1,./data/storage/sample_1.parquet
+sample_2,./data/storage/sample_2.parquet

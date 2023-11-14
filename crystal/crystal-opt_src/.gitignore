@@ -1,0 +1,5 @@
+bin/
+cub/
+test/ssb/dbgen/qgen
+
+.vscode

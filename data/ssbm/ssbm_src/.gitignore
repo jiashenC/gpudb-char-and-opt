@@ -1,0 +1,6 @@
+*.o
+*.tbl
+*.parquet
+qgen
+dbgen
+*.tbl.p

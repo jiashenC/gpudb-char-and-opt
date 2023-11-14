@@ -1,0 +1,1 @@
+scan_1,./data/storage/join_fact_268435456.parquet

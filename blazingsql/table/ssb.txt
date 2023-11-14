@@ -1,0 +1,5 @@
+customer,./data/storage/sf[sfph]_customer.parquet
+ddate,./data/storage/sf[sfph]_date.parquet
+lineorder,./data/storage/sf[sfph]_lineorder.parquet
+supplier,./data/storage/sf[sfph]_supplier.parquet
+part,./data/storage/sf[sfph]_part.parquet
