@@ -127,6 +127,7 @@ class NcuParser:
         self._metric_dict = defaultdict(lambda: defaultdict(lambda: float))
 
         parse_metric = False
+        metric_cnt = 0
 
         for line in out.split("\n"):
             line = line.strip(",").strip('"').split('","')
@@ -142,8 +143,9 @@ class NcuParser:
                     self._fn_to_idx[fn] = idx
 
                 parse_metric = True
+                metric_cnt = len(line)
             else:
-                if len(line) != 12:
+                if len(line) != metric_cnt:
                     continue
                 kernel_name = line[self._fn_to_idx["Kernel Name"]]
                 metric_name = line[self._fn_to_idx["Metric Name"]]
